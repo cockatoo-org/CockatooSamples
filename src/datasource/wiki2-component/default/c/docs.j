@@ -1,9 +1,32 @@
 {
-"@R":"1371205820",
+"@R":"1371438423",
 "type":"HorizontalWidget",
 "subject":"c/docs",
 "description":"",
-"css":"",
+"css":"#c_docs {\r
+  border: 1px solid #888888;\r
+  border-radius: 8px;\r
+  margin: 5px;\r
+}\r
+#c_docs a.link:hover {\r
+  text-decoration: none;\r
+}\r
+#c_docs a.link[href]:hover {\r
+  text-decoration: underline;\r
+}\r
+\r
+#c_docs a.expand {\r
+  background-image: url(/_s_/core/default/css/ui-darkness/images/ui-icons_a83300_256x240.png);\r
+  padding-left:16px;\r
+  cursor: pointer;\r
+}\r
+#c_docs a.expand.plus {\r
+ background-position: 0 -208px;\r
+}\r
+#c_docs a.expand.minus{\r
+ background-position: -16px -208px;\r
+}\r
+",
 "js":"$(function(){\r
   function docTree( doc , to ){\r
     for ( var k in doc ) {\r
@@ -11,7 +34,7 @@
       }else{\r
 \tvar d = $('<div />')\r
 \t  .appendTo(to);\r
-\tvar e = $('<a class=\"expand\" />').text('+');\r
+\tvar e = $('<a class=\"expand plus\" />');\r
 \tvar a = $('<a class=\"link\"/>')\r
 \t  .text(k)\r
 \t  .appendTo(d);\r
@@ -34,10 +57,29 @@
     }\r
   }\r
   docTree(docs,$('#c_docs div.tree'));\r
+\r
+  function contractTree(target){\r
+    target\r
+     .removeClass('minus')\r
+     .addClass('plus');\r
+    target.next().next().hide();\r
+  }\r
+  function expandTree(target){\r
+    target\r
+     .removeClass('plus')\r
+     .addClass('minus');\r
+    target.next().next().show();\r
+  }\r
   $('#c_docs div.tree a.expand').click(function(){\r
-    $(this).next().next().slideToggle();\r
+    if ( $(this).hasClass('plus') ) {\r
+      expandTree($(this));\r
+    }else{\r
+      contractTree($(this));\r
+    }\r
   });\r
-  $('#c_docs div.tree a[href=\"'+window.location.pathname+'\"]').parents('div.child').show();\r
+  $('#c_docs div.tree a[href=\"'+window.location.pathname+'\"]').parents('div.child').prev().prev().each(function(){\r
+    expandTree($(this));\r
+  });\r
 });\r
 ",
 "id":"c_docs",
@@ -47,7 +89,7 @@ var docs = <?cs var:A.wiki2.@docsjson?>;\r
 </script>\r
 <style>\r
 #c_docs div.child {\r
-  margin: 0 0 0 10px;\r
+  margin: 0 0 0 20px;\r
   display: none;\r
 }\r
 </style>\r

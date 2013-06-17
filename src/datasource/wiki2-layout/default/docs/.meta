@@ -64,7 +64,7 @@
 "min_height":"",
 "min_width":"",
 "extra":"",
-"component":"component://wiki2-component/default/pages/page",
+"component":"component://wiki2-component/default/pages/wikipage",
 "children":[
 
 ]

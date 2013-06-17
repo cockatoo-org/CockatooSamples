@@ -29,19 +29,21 @@ class PageAction extends \Cockatoo\PageAction {
   const REGEX_TREE = '@^([^/]*)/(.*)$@';
   protected function treeDoc(&$org,&$doc,&$ret){
     if ( preg_match(self::REGEX_TREE,$doc,$matches) !== 0 ){
-      $this->treeDoc($org,$matches[2],$ret[$matches[1]]);
+      $name = rawurldecode($matches[1]);
+      $this->treeDoc($org,$matches[2],$ret[$name]);
     }else if ( $doc === '' ) {
-      $ret['/']['@'] = $org;
+      $ret['@'] = $org;
     }else {
-      $ret[$doc]['@'] = $org;
+      $name = rawurldecode($doc);
+      $ret[$name]['@'] = $org;
     }
   }
 
   public function proc(){
-    $method = $this->get_method();
+    $method = $this->getMethod();
     if ( $method === \Cockatoo\Beak::M_KEY_LIST ) {
       $this->setNamespace($this->NAMESPACE);
-      $queries = $this->get_queries();
+      $queries = $this->getQueries();
       $brl =  \Cockatoo\brlgen(\Cockatoo\Def::BP_STORAGE, $this->STORAGE, 'page', $page .'/'.$queries['match'], \Cockatoo\Beak::M_KEY_LIST);
       $docs = \Cockatoo\BeakController::beakSimpleQuery($brl);
       $ret = [];
