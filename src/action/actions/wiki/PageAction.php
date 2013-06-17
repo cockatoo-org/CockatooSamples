@@ -16,8 +16,6 @@ class PageAction extends \Cockatoo\Action {
   public function proc(){
 
     try{
-      //list($P,$D,$C,$p,$m,$q,$c) = \Cockatoo\parse_brl($this->BRL);
-      // 
       $this->setNamespace('wiki');
       $session = $this->getSession();
 

@@ -22,7 +22,7 @@ class ImgAction extends \Cockatoo\Action {
     $user  = $session[\Cockatoo\AccountUtil::SESSION_LOGIN][\Cockatoo\AccountUtil::KEY_USER];
     $page   = $this->args['P'];
     $name   = $this->args['N'];
-    $method  = $this->get_method();
+    $method  = $this->getMethod();
     if ( $method === \Cockatoo\Beak::M_SET and isset($session[\Cockatoo\Def::SESSION_KEY_FILES])) {
       if ( ! $user ) {
         $s[\Cockatoo\Def::SESSION_KEY_ERROR] = 'You have to login before update wiki !!';
