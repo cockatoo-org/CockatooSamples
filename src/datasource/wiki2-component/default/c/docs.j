@@ -1,5 +1,5 @@
 {
-"@R":"1371438423",
+"@R":"1371616707",
 "type":"HorizontalWidget",
 "subject":"c/docs",
 "description":"",
@@ -89,7 +89,7 @@ var docs = <?cs var:A.wiki2.@docsjson?>;\r
 </script>\r
 <style>\r
 #c_docs div.child {\r
-  margin: 0 0 0 20px;\r
+  margin: 0 0 0 12px;\r
   display: none;\r
 }\r
 </style>\r
