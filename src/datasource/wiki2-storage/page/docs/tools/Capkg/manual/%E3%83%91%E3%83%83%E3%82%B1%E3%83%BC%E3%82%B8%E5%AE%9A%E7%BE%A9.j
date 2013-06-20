@@ -1,5 +1,5 @@
 {
-"title":"docs/Capkg/manual/\u30d1\u30c3\u30b1\u30fc\u30b8\u5b9a\u7fa9",
+"title":"docs/tools/Capkg/manual/\u30d1\u30c3\u30b1\u30fc\u30b8\u5b9a\u7fa9",
 "origin":"* Capkg\u30d1\u30c3\u30b1\u30fc\u30b8
 \u30d1\u30c3\u30b1\u30fc\u30b8\u306e\u5b9a\u7fa9\u306b\u306f\u5b9a\u7fa9\u30d5\u30a1\u30a4\u30eb\u3092\u4f7f\u3044\u307e\u3059\u3002
 
@@ -2185,5 +2185,5 @@ file -     -               TEST/P1.txt.2                                      /t
 "_ownername":"admin",
 "_time":1371615481,
 "_timestr":"2013-06-19",
-"_u":"docs/Capkg/manual/%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E5%AE%9A%E7%BE%A9"
+"_u":"docs/tools/Capkg/manual/%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E5%AE%9A%E7%BE%A9"
 }

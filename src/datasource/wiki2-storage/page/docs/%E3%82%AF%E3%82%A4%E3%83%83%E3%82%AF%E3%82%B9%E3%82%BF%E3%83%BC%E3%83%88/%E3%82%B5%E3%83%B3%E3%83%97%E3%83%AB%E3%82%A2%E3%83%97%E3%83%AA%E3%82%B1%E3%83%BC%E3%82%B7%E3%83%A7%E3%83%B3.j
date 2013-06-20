@@ -6,8 +6,8 @@
 
 ** wiki2\u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u3092\u30c7\u30d7\u30ed\u30a4
 :Cockatoo\u30b5\u30f3\u30d7\u30eb\u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u53d6\u5f97:
-cd /tmp
-git clone git@github.com:cockatoo-org/CockatooSamples.git
+ cd /tmp
+ git clone git@github.com:cockatoo-org/CockatooSamples.git
 
 :\u30c7\u30d7\u30ed\u30a4:
  cd /tmp/CockatooSamples
@@ -255,52 +255,16 @@ git clone git@github.com:cockatoo-org/CockatooSamples.git
 ]
 },
 {
-"tag":"text",
+"tag":"pre",
 "attr":[
 
 ],
 "children":[
 {
 "tag":"text",
-"attr":[
-
-],
-"children":[
-{
-"tag":"text",
-"text":"cd /tmp"
-}
-]
-},
-{
-"tag":"br",
-"attr":[
-
-],
-"children":[
-
-]
-},
-{
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
-"tag":"text",
-"text":"git clone git@github.com:cockatoo-org/CockatooSamples.git"
-}
-]
-},
-{
-"tag":"br",
-"attr":[
-
-],
-"children":[
-
-]
+"text":"cd /tmp
+git clone git@github.com:cockatoo-org/CockatooSamples.git
+"
 }
 ]
 }
@@ -353,12 +317,6 @@ git clone git@github.com:cockatoo-org/CockatooSamples.git
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -378,8 +336,6 @@ chmod apache -R /usr/local/cockatoo/datasource
 # config\u5909\u66f4
 cp -rT ./src/config.php.wiki2   /usr/local/cockatoo/src/config.php
 "
-}
-]
 }
 ]
 }
@@ -432,12 +388,6 @@ cp -rT ./src/config.php.wiki2   /usr/local/cockatoo/src/config.php
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -447,8 +397,6 @@ cp -rT ./src/config.php.wiki2   /usr/local/cockatoo/src/config.php
 "tag":"text",
 "text":"http://<hostname>/
 "
-}
-]
 }
 ]
 }
@@ -555,7 +503,7 @@ cp -rT ./src/config.php.wiki2   /usr/local/cockatoo/src/config.php
 ],
 "_owner":"admin",
 "_ownername":"admin",
-"_time":1371612399,
-"_timestr":"2013-06-19",
+"_time":1371716238,
+"_timestr":"2013-06-20",
 "_u":"docs/%E3%82%AF%E3%82%A4%E3%83%83%E3%82%AF%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3"
 }

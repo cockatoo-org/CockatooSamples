@@ -2,11 +2,11 @@
 "title":"docs/\u74b0\u5883\u69cb\u7bc9/Cockatoo-Capkg\u74b0\u5883\u69cb\u7bc9",
 "origin":"*Cockatoo-Capkg\u74b0\u5883\u69cb\u7bc9
 **Capkg\u74b0\u5883\u69cb\u7bc9
-- [[Capkg#\u74b0\u5883\u69cb\u7bc9|Capkg\u74b0\u5883\u69cb\u7bc9]]
+- [[tools/Capkg#\u74b0\u5883\u69cb\u7bc9|Capkg\u74b0\u5883\u69cb\u7bc9]]
 
 **\u30bd\u30fc\u30b9\u30b3\u30fc\u30c9\u53d6\u5f97
  cd /tmp
- git@github.com:cockatoo-org/Cockatoo.git
+ git clone git@github.com:cockatoo-org/Cockatoo.git
 
 **Cockatoo\u30ea\u30dd\u30b8\u30c8\u30ea\u4f5c\u6210\uff06\u521d\u671f\u8a2d\u5b9a
 :rvm\u306eruby\u3092\u6307\u5b9a:
@@ -142,7 +142,7 @@
 "tag":"a",
 "attr":{
 "target":"_self",
-"href":"/wiki2/docs/Capkg#\u74b0\u5883\u69cb\u7bc9"
+"href":"/wiki2/docs/tools/Capkg#\u74b0\u5883\u69cb\u7bc9"
 },
 "children":[
 {
@@ -246,7 +246,7 @@
 {
 "tag":"text",
 "text":"cd /tmp
-git@github.com:cockatoo-org/Cockatoo.git
+git clone git@github.com:cockatoo-org/Cockatoo.git
 "
 }
 ]
@@ -358,12 +358,6 @@ git@github.com:cockatoo-org/Cockatoo.git
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -373,8 +367,6 @@ git@github.com:cockatoo-org/Cockatoo.git
 "tag":"text",
 "text":"source /usr/local/rvm/environments/ruby-1.8.7-p357
 "
-}
-]
 }
 ]
 }
@@ -427,12 +419,6 @@ git@github.com:cockatoo-org/Cockatoo.git
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -442,8 +428,6 @@ git@github.com:cockatoo-org/Cockatoo.git
 "tag":"text",
 "text":"cp Cockatoo/settings/capkg/cockatoo.rb Capkg/capkg/config/
 "
-}
-]
 }
 ]
 }
@@ -496,12 +480,6 @@ git@github.com:cockatoo-org/Cockatoo.git
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -511,8 +489,6 @@ git@github.com:cockatoo-org/Cockatoo.git
 "tag":"text",
 "text":"export CAPKG_NS=cockatoo
 "
-}
-]
 }
 ]
 }
@@ -565,12 +541,6 @@ git@github.com:cockatoo-org/Cockatoo.git
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -580,8 +550,6 @@ git@github.com:cockatoo-org/Cockatoo.git
 "tag":"text",
 "text":"./Capkg/capkg/config/capkg.sh createrep
 "
-}
-]
 }
 ]
 }
@@ -634,12 +602,6 @@ git@github.com:cockatoo-org/Cockatoo.git
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -649,8 +611,6 @@ git@github.com:cockatoo-org/Cockatoo.git
 "tag":"text",
 "text":"./Capkg/capkg/config/capkg.sh self
 "
-}
-]
 }
 ]
 }
@@ -703,12 +663,6 @@ git@github.com:cockatoo-org/Cockatoo.git
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -718,8 +672,6 @@ git@github.com:cockatoo-org/Cockatoo.git
 "tag":"text",
 "text":"~/.capkg/config/capkg.sh search
 "
-}
-]
 }
 ]
 }
@@ -778,7 +730,7 @@ git@github.com:cockatoo-org/Cockatoo.git
 ],
 "_owner":"admin",
 "_ownername":"admin",
-"_time":1371616329,
-"_timestr":"2013-06-19",
+"_time":1371716209,
+"_timestr":"2013-06-20",
 "_u":"docs/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/Cockatoo-Capkg%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89"
 }

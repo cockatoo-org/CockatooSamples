@@ -1,5 +1,5 @@
 {
-"title":"docs/Capkg/manual/\u8a2d\u5b9a",
+"title":"docs/tools/Capkg/manual/\u8a2d\u5b9a",
 "origin":"* Manual
 ** \u74b0\u5883\u5909\u6570
 Capkg\u306e\u30d1\u30c3\u30b1\u30fc\u30b8\u53ca\u3073\u30aa\u30da\u30ec\u30fc\u30b7\u30e7\u30f3\u306f\u540d\u524d\u7a7a\u9593\u306b\u3088\u3063\u3066\u5206\u5272\u3055\u308c\u3066\u3044\u307e\u3059\u3002
@@ -1785,5 +1785,5 @@ export CAPKG_NS=cockatoo
 "_ownername":"admin",
 "_time":1371614533,
 "_timestr":"2013-06-19",
-"_u":"docs/Capkg/manual/%E8%A8%AD%E5%AE%9A"
+"_u":"docs/tools/Capkg/manual/%E8%A8%AD%E5%AE%9A"
 }
