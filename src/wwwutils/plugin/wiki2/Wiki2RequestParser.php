@@ -1,6 +1,6 @@
 <?php
 /**
- * MongoRequestParser.php - ????
+ * Wiki2RequestParser.php - ????
  *  
  * @package ????
  * @access public
