@@ -17,7 +17,7 @@ require_once(\Cockatoo\Config::COCKATOO_ROOT.'cmsutils/cms_core.php');
 class ResetAction extends \Cockatoo\Action {
   public function set(){
     $session = $this->getSession();
-    $user = $session[\Cockatoo\AccountUtil::SESSION_LOGIN][\Cockatoo\AccountUtil::KEY_USER];
+    $user = Lib::user($session);
     $page  = $this->args['P'];
     if ( $user && $user === $page ) {
       $rev = 0;
