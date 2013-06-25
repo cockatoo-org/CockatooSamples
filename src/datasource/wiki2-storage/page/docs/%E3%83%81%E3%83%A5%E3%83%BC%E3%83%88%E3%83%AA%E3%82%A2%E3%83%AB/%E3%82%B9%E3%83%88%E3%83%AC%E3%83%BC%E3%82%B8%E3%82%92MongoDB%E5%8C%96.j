@@ -170,7 +170,7 @@ MongoDB\u306e\u79fb\u884c\u6e08\u307f\u30c7\u30fc\u30bf\u3092\u78ba\u8a8d\u3057\
 
 \u66f4\u306b\u9ad8\u8ca0\u8377\u306a\u30b7\u30b9\u30c6\u30e0\u3084\u3001\u30d3\u30b8\u30cd\u30b9\u30ed\u30b8\u30c3\u30af\u304c\u591a\u3044\u30b7\u30b9\u30c6\u30e0\u3067\u306f
 \u30d3\u30b8\u30cd\u30b9\u30ed\u30b8\u30c3\u30af\u3092API\u5316\u3057\u3001\u4e26\u5217\u51e6\u7406\u3057\u305f\u3044\u5834\u5408\u304c\u3042\u308a\u307e\u3059\u3002
->>\u7406\u7531\u306f[[http://www.slideshare.net/crumbjp/cockatoo|\u3053\u306e\u3042\u305f\u308a]]\u3092\u53c2\u7167\u306e\u3053\u3068
+>>\u7406\u7531\u306f\u3053\u3061\u3089\u306e[[http://www.slideshare.net/crumbjp/cockatoo|\u30b9\u30e9\u30a4\u30c9]]\u3092\u53c2\u7167\u306e\u3053\u3068
 
 \u6b21\u7ae0\u3067\u306f\u30d3\u30b8\u30cd\u30b9\u30ed\u30b8\u30c3\u30af\u3092API\u5316\u3057\u3001\u5206\u96e2\u3057\u307e\u3059\u3002
 
@@ -1391,7 +1391,7 @@ rs.initiate(conf)
 "children":[
 {
 "tag":"text",
-"text":false
+"text":";"
 }
 ]
 }
@@ -1471,7 +1471,7 @@ rs.initiate(conf)
 "children":[
 {
 "tag":"text",
-"text":false
+"text":";"
 }
 ]
 }
@@ -1551,7 +1551,7 @@ rs.initiate(conf)
 "children":[
 {
 "tag":"text",
-"text":false
+"text":";"
 }
 ]
 }
@@ -1631,7 +1631,7 @@ rs.initiate(conf)
 "children":[
 {
 "tag":"text",
-"text":false
+"text":";"
 }
 ]
 }
@@ -1711,7 +1711,7 @@ rs.initiate(conf)
 "children":[
 {
 "tag":"text",
-"text":false
+"text":";"
 }
 ]
 }
@@ -1791,7 +1791,7 @@ rs.initiate(conf)
 "children":[
 {
 "tag":"text",
-"text":false
+"text":";"
 }
 ]
 }
@@ -1871,7 +1871,7 @@ rs.initiate(conf)
 "children":[
 {
 "tag":"text",
-"text":false
+"text":";"
 }
 ]
 }
@@ -1951,7 +1951,7 @@ rs.initiate(conf)
 "children":[
 {
 "tag":"text",
-"text":false
+"text":";"
 }
 ]
 }
@@ -2031,7 +2031,7 @@ rs.initiate(conf)
 "children":[
 {
 "tag":"text",
-"text":false
+"text":";"
 }
 ]
 }
@@ -2111,7 +2111,7 @@ rs.initiate(conf)
 "children":[
 {
 "tag":"text",
-"text":false
+"text":";"
 }
 ]
 }
@@ -2191,7 +2191,7 @@ rs.initiate(conf)
 "children":[
 {
 "tag":"text",
-"text":false
+"text":";"
 }
 ]
 }
@@ -2794,7 +2794,7 @@ db.default.find().limit(1)'
 "children":[
 {
 "tag":"text",
-"text":false
+"text":";"
 }
 ]
 },
@@ -2852,7 +2852,7 @@ self::$BeakLocation['session://wiki2-session/'] = array('127.0.0.1:11211');
 "children":[
 {
 "tag":"text",
-"text":false
+"text":";"
 }
 ]
 },
@@ -3221,7 +3221,7 @@ self::$BeakLocation = array (
 "children":[
 {
 "tag":"text",
-"text":"\u3067\u5b9f\u884c\u3067\u304d\u307e\u3057\u305f\u3002"
+"text":";\u3067\u5b9f\u884c\u3067\u304d\u307e\u3057\u305f\u3002"
 }
 ]
 },
@@ -3311,7 +3311,7 @@ self::$BeakLocation = array (
 "children":[
 {
 "tag":"text",
-"text":"\u7406\u7531\u306f"
+"text":"\u7406\u7531\u306f\u3053\u3061\u3089\u306e"
 }
 ]
 },
@@ -3330,7 +3330,7 @@ self::$BeakLocation = array (
 "children":[
 {
 "tag":"text",
-"text":"\u3053\u306e\u3042\u305f\u308a"
+"text":"\u30b9\u30e9\u30a4\u30c9"
 }
 ]
 }
@@ -3522,7 +3522,7 @@ self::$BeakLocation = array (
 ],
 "_owner":"admin",
 "_ownername":"admin",
-"_time":1371721696,
-"_timestr":"2013-06-20",
+"_time":1372140188,
+"_timestr":"2013-06-25",
 "_u":"docs/%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B8%E3%82%92MongoDB%E5%8C%96"
 }
