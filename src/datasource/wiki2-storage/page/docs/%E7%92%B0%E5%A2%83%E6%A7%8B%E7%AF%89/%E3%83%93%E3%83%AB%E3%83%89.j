@@ -13,6 +13,7 @@
 ** \u30d3\u30eb\u30c9\u306b\u5fc5\u8981\u306a\u30e9\u30a4\u30d6\u30e9\u30ea\uff08\u5b9f\u884c\u6642\u306f\u5fc5\u8981\u306a\u3044\uff09
 - git
 - gcc-c++
+- perl-devel
 - libuuid-devel
 - zlib-devel
 - openssl-devel
@@ -433,6 +434,26 @@
 {
 "tag":"text",
 "text":" gcc-c++"
+}
+]
+}
+]
+},
+{
+"tag":"li",
+"attr":{
+"class":"ul1"
+},
+"children":[
+{
+"tag":"text",
+"attr":[
+
+],
+"children":[
+{
+"tag":"text",
+"text":" perl-devel"
 }
 ]
 }
@@ -942,16 +963,10 @@
 "children":[
 {
 "tag":"text",
-"text":false
+"text":";"
 }
 ]
 },
-{
-"tag":"text",
-"attr":[
-
-],
-"children":[
 {
 "tag":"pre",
 "attr":[
@@ -982,8 +997,6 @@ popd
 {
 "tag":"text",
 "text":" \u5f8c\u7d9a\u306e\u30d3\u30eb\u30c9\u306e\u70ba/usr/local/apache<version>\u4ee5\u4e0b\u304c\u4f5c\u3089\u308c\u307e\u3059"
-}
-]
 }
 ]
 }
@@ -1053,16 +1066,10 @@ popd
 "children":[
 {
 "tag":"text",
-"text":false
+"text":";"
 }
 ]
 },
-{
-"tag":"text",
-"attr":[
-
-],
-"children":[
 {
 "tag":"pre",
 "attr":[
@@ -1093,8 +1100,6 @@ popd
 {
 "tag":"text",
 "text":" \u5f8c\u7d9a\u306e\u30d3\u30eb\u30c9\u306e\u70ba/usr/local/php<version>\u4ee5\u4e0b\u304c\u4f5c\u3089\u308c\u307e\u3059"
-}
-]
 }
 ]
 }
@@ -1203,16 +1208,10 @@ popd
 "children":[
 {
 "tag":"text",
-"text":false
+"text":";"
 }
 ]
 },
-{
-"tag":"text",
-"attr":[
-
-],
-"children":[
 {
 "tag":"pre",
 "attr":[
@@ -1243,8 +1242,6 @@ popd
 {
 "tag":"text",
 "text":"\u5f8c\u7d9a\u306e\u30d3\u30eb\u30c9\u306e\u70ba/usr/local/\u4ee5\u4e0b\u306b\u30d5\u30a1\u30a4\u30eb\u304c\u4f5c\u3089\u308c\u307e\u3059\u3002"
-}
-]
 }
 ]
 }
@@ -1299,12 +1296,6 @@ popd
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -1334,8 +1325,6 @@ popd
 {
 "tag":"text",
 "text":"\u5f8c\u7d9a\u306e\u30d3\u30eb\u30c9\u306e\u70ba/usr/local/\u4ee5\u4e0b\u306b\u30d5\u30a1\u30a4\u30eb\u304c\u4f5c\u3089\u308c\u307e\u3059\u3002"
-}
-]
 }
 ]
 }
@@ -1390,12 +1379,6 @@ popd
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -1425,8 +1408,6 @@ popd
 {
 "tag":"text",
 "text":"\u5f8c\u7d9a\u306e\u30d3\u30eb\u30c9\u306e\u70ba/usr/local/\u4ee5\u4e0b\u306b\u30d5\u30a1\u30a4\u30eb\u304c\u4f5c\u3089\u308c\u307e\u3059\u3002"
-}
-]
 }
 ]
 }
@@ -1481,12 +1462,6 @@ popd
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -1516,8 +1491,6 @@ popd
 {
 "tag":"text",
 "text":"\u5f8c\u7d9a\u306e\u30d3\u30eb\u30c9\u306e\u70ba/usr/local/\u4ee5\u4e0b\u306b\u30d5\u30a1\u30a4\u30eb\u304c\u4f5c\u3089\u308c\u307e\u3059\u3002"
-}
-]
 }
 ]
 }
@@ -1628,16 +1601,10 @@ popd
 "children":[
 {
 "tag":"text",
-"text":false
+"text":";"
 }
 ]
 },
-{
-"tag":"text",
-"attr":[
-
-],
-"children":[
 {
 "tag":"pre",
 "attr":[
@@ -1650,8 +1617,6 @@ popd
 ./build.sh clearsilver
 popd
 "
-}
-]
 }
 ]
 }
@@ -1704,12 +1669,6 @@ popd
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -1721,8 +1680,6 @@ popd
 ./build.sh apc
 popd
 "
-}
-]
 }
 ]
 }
@@ -1775,12 +1732,6 @@ popd
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -1792,8 +1743,6 @@ popd
 ./build.sh zmq
 popd
 "
-}
-]
 }
 ]
 }
@@ -1846,12 +1795,6 @@ popd
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -1863,8 +1806,6 @@ popd
 ./build.sh zookeeper
 popd
 "
-}
-]
 }
 ]
 }
@@ -1917,12 +1858,6 @@ popd
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -1934,8 +1869,6 @@ popd
 ./build.sh mongo
 popd
 "
-}
-]
 }
 ]
 }
@@ -1988,12 +1921,6 @@ popd
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -2005,8 +1932,6 @@ popd
 ./build.sh memcached
 popd
 "
-}
-]
 }
 ]
 }
@@ -2123,12 +2048,6 @@ popd
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -2143,8 +2062,6 @@ tar xzf jdk-7u2-linux-x64.tar.gz
 ./build.sh 
 popd
 "
-}
-]
 }
 ]
 }
@@ -2197,12 +2114,6 @@ popd
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -2232,8 +2143,6 @@ popd
 {
 "tag":"text",
 "text":"\u5f8c\u7d9a\u306e\u30d3\u30eb\u30c9\u306e\u70ba/usr/local/\u4ee5\u4e0b\u306b\u30d5\u30a1\u30a4\u30eb\u304c\u4f5c\u3089\u308c\u307e\u3059\u3002"
-}
-]
 }
 ]
 }
@@ -2288,12 +2197,6 @@ popd
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -2305,8 +2208,6 @@ popd
 ./build.sh 
 popd
 "
-}
-]
 }
 ]
 }
@@ -2359,12 +2260,6 @@ popd
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -2376,8 +2271,6 @@ popd
 ./build.sh 
 popd
 "
-}
-]
 }
 ]
 }
@@ -2430,12 +2323,6 @@ popd
 ]
 },
 {
-"tag":"text",
-"attr":[
-
-],
-"children":[
-{
 "tag":"pre",
 "attr":[
 
@@ -2447,8 +2334,6 @@ popd
 ./build.sh 
 popd
 "
-}
-]
 }
 ]
 }
@@ -2486,7 +2371,7 @@ popd
 ],
 "_owner":"admin",
 "_ownername":"admin",
-"_time":1371624211,
-"_timestr":"2013-06-19",
+"_time":1372227263,
+"_timestr":"2013-06-26",
 "_u":"docs/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/%E3%83%93%E3%83%AB%E3%83%89"
 }
