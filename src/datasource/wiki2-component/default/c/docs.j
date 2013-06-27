@@ -1,5 +1,5 @@
 {
-"@R":"1371616707",
+"@R":"1372297691",
 "type":"HorizontalWidget",
 "subject":"c/docs",
 "description":"",
@@ -14,7 +14,9 @@
 #c_docs a.link[href]:hover {\r
   text-decoration: underline;\r
 }\r
-\r
+#c_docs a.link.current[href] {\r
+  background-color: #F6F4CD;\r
+}\r
 #c_docs a.expand {\r
   background-image: url(/_s_/core/default/css/ui-darkness/images/ui-icons_a83300_256x240.png);\r
   padding-left:16px;\r
@@ -77,7 +79,9 @@
       contractTree($(this));\r
     }\r
   });\r
-  $('#c_docs div.tree a[href=\"'+window.location.pathname+'\"]').parents('div.child').prev().prev().each(function(){\r
+  var current = $('#c_docs div.tree a[href=\"'+window.location.pathname+'\"]');\r
+  current.addClass('current');\r
+  current.parents('div.child').prev().prev().each(function(){\r
     expandTree($(this));\r
   });\r
 });\r
