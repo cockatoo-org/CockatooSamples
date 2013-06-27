@@ -14,7 +14,7 @@
 
 *\u30c1\u30e5\u30fc\u30c8\u30ea\u30a2\u30eb
 ** \u958b\u767a
-++[[http://test.cockatoo.jp/|\u30c1\u30e5\u30fc\u30c8\u30ea\u30a2\u30eb\u30fbCMS\u4f53\u9a13\u30b3\u30fc\u30ca\u30fc]]
+++[[http://test.cockatoo.jp/test/main|\u30c1\u30e5\u30fc\u30c8\u30ea\u30a2\u30eb\u30fbCMS\u4f53\u9a13\u30b3\u30fc\u30ca\u30fc]]
 ** \u904b\u7528
 ++[[\u30c1\u30e5\u30fc\u30c8\u30ea\u30a2\u30eb/\u30b9\u30bf\u30f3\u30c9\u30a2\u30ed\u30f3\u69cb\u7bc9|\u30c1\u30e5\u30fc\u30c8\u30ea\u30a2\u30eb\u30fb\u30b9\u30bf\u30f3\u30c9\u30a2\u30ed\u30f3\u69cb\u7bc9]]
 ++[[\u30c1\u30e5\u30fc\u30c8\u30ea\u30a2\u30eb/\u30bb\u30c3\u30b7\u30e7\u30f3\u3092memcached\u5316|\u30c1\u30e5\u30fc\u30c8\u30ea\u30a2\u30eb\u30fb\u30bb\u30c3\u30b7\u30e7\u30f3\u3092memcached\u5316]]
@@ -672,7 +672,7 @@
 "tag":"a",
 "attr":{
 "target":"_self",
-"href":"http://test.cockatoo.jp/"
+"href":"http://test.cockatoo.jp/test/main"
 },
 "children":[
 {
@@ -2262,9 +2262,9 @@
 ]
 }
 ],
-"_owner":"admin",
-"_ownername":"admin",
-"_time":1372139939,
-"_timestr":"2013-06-25",
+"_owner":"crumbjp",
+"_ownername":"@crumbjp",
+"_time":1372230512,
+"_timestr":"2013-06-26",
 "_u":"docs/"
 }
