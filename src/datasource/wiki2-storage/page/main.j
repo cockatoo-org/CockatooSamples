@@ -111,6 +111,7 @@ Cockatoo\u3067\u306f\u3053\u306e\u4e26\u5217API\u30b3\u30fc\u30eb\u3092\u30b5\u3
 \u8a73\u7d30\u306f[[sequence|\u30b7\u30fc\u30b1\u30f3\u30b9]]\u3092\u53c2\u7167\u3057\u3066\u304f\u3060\u3055\u3044\u3002
 
 * \u5354\u529b\u3057\u3066\u304f\u308c\u308b\u65b9\u52df\u96c6\u4e2d\uff01\uff01
+:\u8208\u5473\u306e\u3042\u308b\u65b9\u306f\u3054\u9023\u7d61\u304f\u3060\u3055\u3044:hiroaki.kubota@mail.crumb.jp
 ",
 "contents":[
 {
@@ -3085,6 +3086,18 @@ Cockatoo\u3067\u306f\u3053\u306e\u4e26\u5217API\u30b3\u30fc\u30eb\u3092\u30b5\u3
 },
 "children":[
 {
+"tag":"dl",
+"attr":[
+
+],
+"children":[
+{
+"tag":"dt",
+"attr":[
+
+],
+"children":[
+{
 "tag":"text",
 "attr":[
 
@@ -3092,17 +3105,32 @@ Cockatoo\u3067\u306f\u3053\u306e\u4e26\u5217API\u30b3\u30fc\u30eb\u3092\u30b5\u3
 "children":[
 {
 "tag":"text",
-"text":""
+"text":"\u8208\u5473\u306e\u3042\u308b\u65b9\u306f\u3054\u9023\u7d61\u304f\u3060\u3055\u3044"
+}
+]
 }
 ]
 },
 {
-"tag":"br",
+"tag":"dd",
 "attr":[
 
 ],
 "children":[
+{
+"tag":"text",
+"attr":[
 
+],
+"children":[
+{
+"tag":"text",
+"text":"hiroaki.kubota@mail.crumb.jp"
+}
+]
+}
+]
+}
 ]
 }
 ]
@@ -3112,7 +3140,7 @@ Cockatoo\u3067\u306f\u3053\u306e\u4e26\u5217API\u30b3\u30fc\u30eb\u3092\u30b5\u3
 ],
 "_owner":"admin",
 "_ownername":"admin",
-"_time":1372319096,
+"_time":1372319523,
 "_timestr":"2013-06-27",
 "_u":"main"
 }
