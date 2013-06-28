@@ -25,7 +25,7 @@ class PageAction extends \Cockatoo\PageAction {
     return Lib::isRoot($session);
   }
 
-
+/*
   const REGEX_TREE = '@^([^/]*)/(.*)$@';
   protected function treeDoc(&$org,&$doc,&$ret){
     if ( preg_match(self::REGEX_TREE,$doc,$matches) !== 0 ){
@@ -54,4 +54,5 @@ class PageAction extends \Cockatoo\PageAction {
     }
     return parent::proc();
   }
+*/
 }

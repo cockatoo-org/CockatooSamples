@@ -21,6 +21,9 @@ class TestRequestParser extends \Cockatoo\DefaultRequestParser {
       if ( preg_match('@^reset/(.*)?$@', $reqpath , $matches ) !== 0 ) {
         $this->path = 'reset';
         $this->args['P'] = $matches[1];
+      }elseif ( preg_match('@^docs/(.*)?$@', $reqpath , $matches ) !== 0 ) {
+        $this->path = 'docs/';
+        $this->args['P'] = 'docs/'.$matches[1];
       }else{ 
         $this->path = $reqpath;
         $this->args['P'] = $reqpath;
