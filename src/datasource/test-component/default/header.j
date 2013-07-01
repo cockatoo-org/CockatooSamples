@@ -1,5 +1,5 @@
 {
-"@R":"1372138757",
+"@R":"1372663172",
 "type":"HorizontalWidget",
 "subject":"header",
 "description":"",
@@ -109,7 +109,7 @@
 "id":"header",
 "class":"",
 "body":"<nav><div class=\"nav top\" role=\"navigation\">\r
-  <div id=\"logo\"><img alt=\"MongoDB JP User Group \" src=\"/_s_/core/default/logo.png\"></img></div>\r
+  <div id=\"logo\"><img alt=\"Cockatoo\" src=\"/_s_/core/default/logo.png\"></img></div>\r
   <div id=\"title\">Cockatoo test page</div>\r
 <?cs if:! S.login.user ?>\r
   <div id=\"identity\"><a href=\"<?cs var:C._base ?>/login?r=<?cs if:S._g.r ?><?cs var:S._g.r ?><?cs else ?><?cs var:S._r._eurl ?><?cs /if ?>\">login</a></div>\r
@@ -118,6 +118,7 @@
    <div class=\"logout\">\r
     <a class=\"logout\">logout</a>\r
     <form method=\"post\" action=\"<?cs var:C._base ?>/profile\">\r
+     <input type=\"hidden\" name=\"r\" value=\"<?cs var:S._r._url ?>\"/>\r
      <input type=\"submit\" name=\"submit\" value=\"logout\" />\r
     </form>\r
    </div>\r

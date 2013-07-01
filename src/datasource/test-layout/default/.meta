@@ -1,5 +1,5 @@
 {
-"@R":"1372060876",
+"@R":"1372660741",
 "eredirect":"/test/main",
 "redirect":"",
 "layout":{
@@ -48,5 +48,7 @@
 "bottom":"",
 "session_exp":"86400",
 "expires":"",
-"_u":""
+"_u":"",
+"pre_action":"action://test-action/test/AccountAction?get",
+"post_action":""
 }

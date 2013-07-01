@@ -1,8 +1,8 @@
 {
-"@R":"1372055828",
+"@R":"1372660723",
 "eredirect":"",
 "redirect":"",
-"pre_action":"action://test-action/test/TwitterOauthAction",
+"pre_action":"action://test-action/test/TwitterOauthAction?set",
 "post_action":"",
 "session_exp":"2147483647",
 "expires":"",
