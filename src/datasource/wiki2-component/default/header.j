@@ -1,5 +1,5 @@
 {
-"@R":"1371184182",
+"@R":"1372660162",
 "type":"HorizontalWidget",
 "subject":"header",
 "description":"header",
@@ -120,6 +120,7 @@
    <div class=\"logout\">\r
     <a class=\"logout\">logout</a>\r
     <form method=\"post\" action=\"<?cs var:C._base ?>/profile\">\r
+     <input type=\"hidden\" name=\"r\" value=\"<?cs var:S._r._url ?>\" />\r
      <input type=\"submit\" name=\"submit\" value=\"logout\" />\r
     </form>\r
    </div>\r

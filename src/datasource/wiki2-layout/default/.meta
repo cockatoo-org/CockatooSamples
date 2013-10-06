@@ -1,5 +1,5 @@
 {
-"@R":"1371178033",
+"@R":"1372655496",
 "eredirect":"/wiki2/main",
 "redirect":"/wiki2/main",
 "layout":{
@@ -112,5 +112,7 @@
 "bottom":"<script src=\"/_s_/core/default/js/jquery-1.7.2.min.js\"></script>",
 "session_exp":"3600",
 "expires":"0",
-"_u":""
+"_u":"",
+"pre_action":"action://wiki2-action/wiki2/AccountAction?get",
+"post_action":""
 }
