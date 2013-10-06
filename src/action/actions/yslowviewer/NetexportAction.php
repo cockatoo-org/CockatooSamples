@@ -21,7 +21,7 @@ class Netexportaction extends BeaconAction {
     $beacon['u']=\Cockatoo\UrlUtil::urlencode($beacon['har']['log']['entries'][0]['request']['url']);
     foreach($beacon['har']['log']['entries'] as $k => $req ){
       if ( isset($beacon['har']['log']['entries'][$k]['response']['content']['text'])) {
-        $beacon['har']['entries'][$k]['response']['content']['text'] = '...';
+        $beacon['har']['log']['entries'][$k]['response']['content']['text'] = '...';
       }
     }
     return $beacon;

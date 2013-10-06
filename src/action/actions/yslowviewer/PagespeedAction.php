@@ -41,7 +41,7 @@ class PagespeedAction extends BeaconAction {
     return $beacon;
   }
   function other_methods(){
-    $method  = $this->get_method();
+    $method  = $this->getMethod();
     if ( $method === \Cockatoo\Beak::M_GET_ARRAY ) {
       $session = $this->getSession();
       $url = $session[\Cockatoo\Def::SESSION_KEY_GET]['u'];
@@ -110,6 +110,6 @@ class PagespeedAction extends BeaconAction {
                                                 'scores'=>$graph_scores
                                             )));
     }
-    throw new \Exception('Unexpected method ! : ' . $this->get_method());
+    throw new \Exception('Unexpected method ! : ' . $this->getMethod());
   }
 }

@@ -34,16 +34,16 @@ class YslowAction extends BeaconAction {
     }
     
     uasort($beacon['stats'],function($a,$b){
-             return $a['w'] < $b['w'];
-           });
+        return $a['w'] < $b['w'];
+      });
     uasort($beacon['stats_c'],function($a,$b){
-             return $a['w'] < $b['w'];
-           });
+        return $a['w'] < $b['w'];
+      });
     return $beacon;
   }
 
    function other_methods(){
-     $method  = $this->get_method();
+     $method  = $this->getMethod();
      if ( $method === \Cockatoo\Beak::M_GET_ARRAY ) {
        $session = $this->getSession();
        $url = $session[\Cockatoo\Def::SESSION_KEY_GET]['u'];
@@ -145,7 +145,7 @@ class YslowAction extends BeaconAction {
                                                  'scores'=>$graph_scores
                                              )));
      }
-     throw new \Exception('Unexpected method ! : ' . $this->get_method());
+     throw new \Exception('Unexpected method ! : ' . $this->getMethod());
    }
 }
 

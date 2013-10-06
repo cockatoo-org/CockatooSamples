@@ -16,7 +16,7 @@
 "min_height":"",
 "min_width":"",
 "extra":"",
-"component":"component:\/\/core-component\/default\/horizontal#critical",
+"component":"component://core-component/default/horizontal#critical",
 "children":[
 {
 "type":"HorizontalWidget",
@@ -26,7 +26,7 @@
 "min_height":"",
 "min_width":"",
 "extra":"",
-"component":"component:\/\/yslowviewer-component\/default\/help?get",
+"component":"component://yslowviewer-component/default/help?get",
 "children":[
 
 ]
@@ -39,7 +39,7 @@
 "min_height":"",
 "min_width":"",
 "extra":"",
-"component":"component:\/\/yslowviewer-component\/default\/ulist?get",
+"component":"component://yslowviewer-component/default/ulist?get",
 "children":[
 
 ]
