@@ -16,7 +16,7 @@ class PwatchAction extends \Cockatoo\Action {
     try{
       $this->setNamespace('pwatch');
       $session = $this->getSession();
-      $method  = $this->get_method();
+      $method  = $this->getMethod();
       $user  = $session[\Cockatoo\AccountUtil::SESSION_LOGIN][\Cockatoo\AccountUtil::KEY_USER];
       if ( $method === \Cockatoo\Beak::M_GET ) {
         $url = $session[\Cockatoo\Def::SESSION_KEY_GET]['u'];

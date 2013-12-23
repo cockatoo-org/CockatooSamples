@@ -1,0 +1,17 @@
+{
+"@R":"1380719973",
+"type":"JsonWidget",
+"subject":"ajax",
+"description":"ajax",
+"css":"",
+"js":"",
+"id":"",
+"class":"",
+"body":"A.monmo.AjaxAction",
+"action":[
+"action://monmo-action/monmo/AjaxAction"
+],
+"header":"",
+"bottom":"",
+"_u":"ajax"
+}
